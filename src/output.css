@@ -588,12 +588,6 @@ video {
   }
 }
 
-@media (min-width: 1940px) {
-  .container {
-    max-width: 1940px;
-  }
-}
-
 #whatsapp-btn {
   opacity: 0;
   transform: translateY(-90%);
@@ -2631,8 +2625,8 @@ body.no-scroll {
 
 .animated-container {
   position: relative;
-  width: 315px;
-  height: 500px;
+  width: 320px;
+  height: 476px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2643,7 +2637,7 @@ body.no-scroll {
 .animated-border {
   position: absolute;
   width: 100px;
-  height: 470px;
+  height: 476px;
   top: 50%;
   left: -50%;
   background: linear-gradient(
@@ -2660,7 +2654,7 @@ body.no-scroll {
 .animated-border-two {
   position: absolute;
   width: 100px;
-  height: 470px;
+  height: 476px;
   top: -50%;
   right: -50%;
   background: linear-gradient(
@@ -2903,12 +2897,6 @@ scrollbar-color: #ebcf7f #000;
   @media (min-width: 1536px) {
     .sm\:container {
       max-width: 1536px;
-    }
-  }
-
-  @media (min-width: 1940px) {
-    .sm\:container {
-      max-width: 1940px;
     }
   }
 }
