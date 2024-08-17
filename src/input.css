@@ -108,8 +108,8 @@ body.no-scroll {
 
 @layer components {
   #whatsapp-btn {
-    opacity: 0.2;
-    transform: translateY(110%);
+    opacity: 0;
+    transform: translateY(-90%);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
 }
