@@ -36,7 +36,7 @@ body.no-scroll {
 .animated-border {
   position: absolute;
   width: 100px;
-  height: 500px;
+  height: 470px;
   top: 50%;
   left: -50%;
   background: linear-gradient(
@@ -52,7 +52,7 @@ body.no-scroll {
 .animated-border-two {
   position: absolute;
   width: 100px;
-  height: 500px;
+  height: 470px;
   top: -50%;
   right: -50%;
 
