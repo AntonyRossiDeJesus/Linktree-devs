@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "custom-icon-whatssap": "url('./assets/icone-whatszapp-azul.svg')",
+        "custom-icon-whatssap": "url('./assets/icone-whatssap-azul-botao.svg')",
       },
       colors: {
         "bg-primary": "#02101F",
