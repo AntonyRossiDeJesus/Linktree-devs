@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAX DEVS</title>
+
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <link rel="preload" href="public/video/bannerhome.mp4" as="video" />
+  </head>
+  <body class="overflow-hidden">
+    <main>
+      <section
+        class="relative bg-bg-primary text-white h-screen md:min-h-screen flex justify-center items-center pb-6 pt-6"
+      >
+        <div class="container flex flex-col items-center z-30">
+          <div
+            class="flex items-center justify-center flex-col gap-4 px-2 md:pt-10 md:px-0 max-w-[540px]"
+          >
+            <div class="flex flex-col items-center gap-4">
+              <img
+                class="w-20 h-10"
+                src="/favicon.png"
+                alt="Logo de escola de desenvolvedores web do brasil"
+              />
+              <h1
+                class="text-white text-3xl uppercase font-semibold text-center"
+              >
+                Do básico ao mercado de trabalho
+              </h1>
+              <div class="w-full flex flex-row justify-center">
+                <h2
+                  class="text-white text-2xl uppercase font-semibold w-[165px]"
+                >
+                  CRIE PÁGINAS:
+                </h2>
+                <span
+                  id="typing-text"
+                  class="typing text-white text-2xl uppercase font-semibold"
+                >
+                </span>
+              </div>
+            </div>
+            <div class="animated-container">
+              <div class="animated-border"></div>
+              <div class="animated-border-two"></div>
+              <div class="content-container">
+                <p class="relative z-10 text-[21px] pb-4">
+                  conteudo 100% gratuito!
+                </p>
+                <div class="item-acordeao">
+                  <div class="cabecalho-item p-2">
+                    <img
+                      class="img-seta"
+                      src="src/assets/seta-para-baixo.png"
+                      alt="Seta apontando para baixo"
+                      style="max-width: 16px; max-height: 16px"
+                    />
+                    <span class="uppercase">ARQUIVOS WORDPRESS</span>
+                  </div>
+                  <div class="corpo-item">
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/drive/folders/1ihsbG2SHt7WsYOV0bFjCgVUUPB9W9cUE?usp=drive_link"
+                      >DRIVE WORDPRESS</a
+                    >
+                  </div>
+                </div>
+
+                <div class="item-acordeao">
+                  <div class="cabecalho-item--reverse">
+                    <span class="uppercase">ARQUIVOS PHOTOSHOP</span>
+                    <img
+                      class="img-seta"
+                      src="src/assets/seta-para-baixo.png"
+                      alt="Seta apontando para baixo"
+                      style="max-width: 16px; max-height: 16px"
+                    />
+                  </div>
+                  <div class="corpo-item corpo-item--reverse">
+                    <a
+                      href="https://drive.google.com/drive/folders/1FRPv9fx2q3Ar_KvrD7OO20dD4madElOs?usp=drive_link"
+                      target="_blank"
+                      >DRIVE PHOTOSHOP</a
+                    >
+                  </div>
+                </div>
+
+                <div class="item-acordeao pb-4">
+                  <div class="cabecalho-item">
+                    <img
+                      class="img-seta"
+                      src="src/assets/seta-para-baixo.png"
+                      alt="Seta apontando para baixo"
+                      style="max-width: 16px; max-height: 16px"
+                    />
+                    <span class="uppercase">ARQUIVOS html css js</span>
+                  </div>
+                  <div class="corpo-item corpo-item">Em breve...</div>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                  <a
+                    href="https://youtube.com/@desenvolvendo.devs.brasil"
+                    class="button-secundary"
+                    target="_blank"
+                    ><span class="flex gap-2 min-w-[200px] justify-start">
+                      YOUTUBE
+                      <img
+                        class="w-6 h-6"
+                        src="src/assets/icone-youtube-azul-botao.svg"
+                        alt=""
+                      /> </span
+                  ></a>
+
+                  <a
+                    href="https://github.com/AntonyRossiDeJesus"
+                    class="button-secundary"
+                    target="_blank"
+                    ><span class="flex gap-2 min-w-[200px] justify-start pl-10">
+                      GITHUB<img
+                        class="w-6 h-6"
+                        src="src/assets/icone-github-azul-botao.svg"
+                        alt=""
+                      /> </span
+                  ></a>
+
+                  <a
+                    href="https://www.instagram.com/maaxdesginss/"
+                    class="button-secundary"
+                    target="_blank"
+                    ><span class="flex gap-2 min-w-[200px] justify-center">
+                      INSTAGRAM<img
+                        class="w-6 h-6"
+                        src="src/assets/icone-instagram.svg"
+                        alt=""
+                      /> </span
+                  ></a>
+
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61553504593614"
+                    class="button-secundary"
+                    target="_blank"
+                    ><span class="flex gap-2 min-w-[200px] justify-end">
+                      FACEBOOK<img
+                        class="w-6 h-6"
+                        src="src/assets/icone-facebook.svg"
+                        alt=""
+                      /> </span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-bg-primary via-transparent to-transparent z-10"
+        ></div>
+
+        <video
+          autoplay
+          loop
+          muted
+          class="absolute w-full h-full object-cover opacity-40"
+        >
+          <source src="public/video/bannerhome.mp4" />
+        </video>
+      </section>
+
+      <a
+        id="whatsapp-btn"
+        href="https://api.whatsapp.com/send?phone=5548988046418"
+        target="_blank"
+        class="fixed bottom-6 right-6 p-4 flex z-50"
+      >
+        <i class="bg-custom-icon-whatssap bg-cover bg-center w-16 h-16"></i>
+      </a>
+    </main>
+
+    <script src="src/js/timeout.js"></script>
+    <script src="src/js/acordeao.js"></script>
+    <script src="src/js/lazyLoad.js"></script>
+    <script src="src/js/typewriter.js"></script>
+  </body>
+</html>
